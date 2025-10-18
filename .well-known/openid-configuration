@@ -1,0 +1,10 @@
+{
+  "issuer": "https://jvianes.github.io/jwt_config/",
+  "authorization_endpoint": "https://example.com/authorize",
+  "token_endpoint": "https://example.com/token",
+  "userinfo_endpoint": "https://example.com/userinfo",
+  "jwks_uri": "https://jvianes.github.io/jwt_config/.well-known/jwks.json",
+  "scopes_supported": ["pets_read", "pets_write", "admin"],
+  "response_types_supported": ["code", "id_token", "token id_token"],
+  "token_endpoint_auth_methods_supported": ["client_secret_basic"],
+}
